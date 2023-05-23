@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "it2810-scripts"
+version = "0.1.0"
+description = "Script for creating GitLab groups using a groups csv file"
+authors = ["Ulrik Røsby <ulrik@rosby.no>"]
+readme = "README.md"
+packages = [{include = "it2810_scripts"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+mypy = "^1.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
